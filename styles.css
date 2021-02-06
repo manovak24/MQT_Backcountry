@@ -67,7 +67,7 @@ body {
 
 /*Banner section*/
 .banner-container {
-background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("./resources/skinning.jpg");
+background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(./Resources/skinning.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
