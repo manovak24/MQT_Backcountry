@@ -39,4 +39,28 @@ const formatQuote = () => {
 
 formatQuote(quotesToPost);
 
+//Home page slideshow
+let carousel = document.getElementById('slide')
 
+let i = 0;
+let images = [];
+let time = 5000;
+
+images[0] = './Resources/pano1.jpeg';
+images[1] = './Resources/pano2.jpeg';
+images[2] = './Resources/pano3.jpeg';
+images[3] = './Resources/pano4.jpeg';
+
+function changeImg() { 
+    carousel.src = images[i];
+
+    if (i < images.length -1) {
+        i++;
+    } else {
+        i = 0;
+    }
+
+    setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
