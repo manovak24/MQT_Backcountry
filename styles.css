@@ -13,7 +13,7 @@ body {
 
 /*Top nav section*/
 .topnav {
-    background-color:rgba(0, 102, 255, 0.651);
+    background-color: #e8e8e8;
     display: block;
     overflow: hidden;
     width: 100%;
@@ -21,8 +21,8 @@ body {
 
 .topnav a {
     float: right;
-    display: block;
-    color: white;
+    display: block; 
+    color: black;
     text-align: center;
     padding: 0.875rem 1.563rem;
     text-decoration: none;
@@ -83,9 +83,7 @@ body {
 .carousel {
     height: auto;
     padding: .2rem 1.5rem 1.5rem 1.5rem;
-    
     background-color: #e8e8e8;
-    
     margin-bottom: 1.5rem;
 }
 
@@ -211,4 +209,30 @@ body {
         grid-column: 1;
         grid-row: 5;
     }
+}
+
+/*Footer section*/
+footer {
+    width: 100%;
+    background-color: #e8e8e8;
+    color: white;
+    height: 3rem;
+    display: block;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+  
+.fa {
+    color: black;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding: 0.875rem .5rem;
+}
+
+footer p {
+    color: black;
+    float: right;
+    display: block;
+    padding-right: .5rem;
 }
