@@ -12,18 +12,43 @@
     <header>
         <div class="topnav" id="myTopnav">
           <a href="./index.html" class="active">MQT Backcountry</a>
-          <a href="#contact" class="nav-link">Contact</a>
-          <a href="#about" class="nav-link">About</a>
-          <a href="#events" class="nav-link">Events</a>
+          <a href="./contact.html" class="nav-link">Contact</a>
+          <a href="./about.html" class="nav-link">About</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
           </a>
         </div>
     </header>
 
-    <article>
-        
-    </article>
+    <div class="banner-container">
+        <div class="text-over">
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
     <footer>
         <div class="social">
