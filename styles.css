@@ -238,7 +238,6 @@ footer p {
 }
 
 /*Contact page*/
-/*Contact section*/
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -250,25 +249,25 @@ input[type=text], select, textarea {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+}
   
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+/* Style the submit button with a specific background color etc */
+    input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+/* Add a background color and some padding around the form */
+.container {
     margin-top: 20px;
     border-radius: 5px;
     padding: 20px;
@@ -276,10 +275,21 @@ input[type=text], select, textarea {
     width: 50%;
     display: inline-flex;
     justify-content: center;
-  }
-  
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .container {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
+
+/*About page*/
+.about-container {
+    margin: auto 4rem;
+}
+
+.about-container img {
+    height: 10rem;
+    width: 16rem;
+    border-radius: .5rem;
+}
