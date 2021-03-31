@@ -82,7 +82,7 @@ body {
 /*Carousel slide section*/
 .carousel {
     height: auto;
-    padding: .2rem 1.5rem 1.5rem 1.5rem;
+    padding: 1rem 1.5rem 2.5rem 1.5rem;
     background-color: #e8e8e8;
     margin-bottom: 1.5rem;
 }
@@ -97,6 +97,8 @@ body {
 .quote-container {
     margin-left: 1rem;
     margin-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .quote {
@@ -290,4 +292,11 @@ input[type=submit]:hover {
     height: 10rem;
     width: 16rem;
     border-radius: .5rem;
+}
+
+/*Weather section*/
+.weather-container {
+    margin: auto;
+    width: 100%;
+    padding: 4rem 0rem 2rem 0rem;
 }
